@@ -1,0 +1,78 @@
+{
+	"Nfts": [
+		{
+		"Author": "Author Untitled",
+		"nftSet": [
+			{
+			"Name": "Nft 1",
+			"Year": "2022",
+			"Price": "0.05",
+			"Thumbnail": "https://assets.codepen.io/12005/windmill.jpg",
+			"Valute": "eth"
+			},
+			{
+			"Name": "Nft 2",
+			"Year": "2021",
+			"Price": "0.01",
+			"Thumbnail": "https://assets.codepen.io/12005/suspension-bridge.jpg",
+			"Valute": "eth"
+			},
+			{
+			"Name": "Nft 3",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/sunset.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 4",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/snowy.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 5",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/bristol-balloons1.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 6",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/dog-balloon.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 7",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/disney-balloon.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 8",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/disney-balloon.jpg",
+			"Valute": "eth"
+			}
+			,
+			{
+			"Name": "Nft 9",
+			"Year": "2022",
+			"Price": "0.004",
+			"Thumbnail": "https://assets.codepen.io/12005/bristol-harbor.jpg",
+			"Valute": "eth"
+			}
+		]
+		}   
+	]   
+	}
