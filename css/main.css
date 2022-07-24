@@ -1328,3 +1328,26 @@ input:-webkit-autofill {
 .team-modules-content-item > div {
 	margin-left: 60px;
 }
+.home-slider{
+	width: 100%;
+	height: 100vh;
+}
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+.mh{
+	height: 100%;
+	display: flex;
+}
+.first-home h1,.first-home{
+	color: #fff;
+}
+.first-home p{
+	width: 50%;
+	margin-left: auto;
+}
+.home-slider .swiper-slide{
+
+}

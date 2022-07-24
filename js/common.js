@@ -26,7 +26,13 @@ $('.team-module').click(function(){
 	$('.team-module.active').not(this).removeClass('active');
 	$(this).toggleClass('active');
 })
-
+var swiper = new Swiper(".home-slider", {
+	direction: "horizontal",
+	slidesPerView: 1,
+	spaceBetween: 30,
+	mousewheel: true,
+	loop: false
+});
 //swiper init
 const swipermodules = new Swiper('.modules-carousel', {
 	// Optional parameters
