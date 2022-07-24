@@ -14,10 +14,36 @@
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+	.team-modules {
+		width: 40%;
+	}
+
+	.team-wrap {
+		align-items: center;
+	}
+
+	
 }
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+	.team-wrap {
+		flex-flow: column;
+	}
+	.team-module {
+		text-align: center;
+	}
+	.team-modules {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.team-modules>div:first-child {
+		border-top: none;
+	}
+
 	.page-nft-template {
 		padding-top: 40px;
 	}
@@ -151,39 +177,31 @@
 		column-count: 2;
 		column-gap: 16px;
 	}
-
 	.first-screen {
 		padding-top: 40px;
 	}
-
 	.contact-widgets {
 		align-items: flex-start;
 		flex-flow: column;
 	}
-
 	.contact-widgets * {
 		margin-bottom: 32px;
 	}
-
 	.form-floating label {
 		font-size: 16px;
 	}
-
 	.main-feed {
 		padding-top: 32px;
 	}
-
 	.filters {
 		overflow-x: auto;
 		white-space: nowrap;
 		justify-content: flex-start;
 		margin-bottom: 0;
 	}
-
 	.filters button {
 		width: 100%;
 	}
-
 	header.active.toggle-menu {
 		display: flex;
 		position: fixed;
@@ -200,59 +218,137 @@
 		visibility: visible;
 		opacity: 1;
 	}
-
-
 	.popup-dialog .popup-dialog-wrap {
 		padding: 0 16px;
 	}
-
 	.modules-carousel {
 		margin-top: 30px;
 	}
-
 	.image {
 		margin-bottom: 10px;
 	}
-
 	.hide-on-mob {
 		display: none;
 	}
-
 	.hide-on-desk {
 		display: block;
 	}
-
 	.nft-details {
 		order: 2;
 		margin-top: 28px;
 	}
-
 	.artist-detail {
 		order: 1;
 	}
-
 	.about-bg-title::before {
 		left: -8%;
 		bottom: -45%;
 		background-size: 60%;
 	}
-	.facts-bg span::before{
+	.facts-bg span::before {
 		width: 80px;
 		height: 92px;
 		background-size: cover;
 	}
+	.team-modules{
+		overflow-x: auto;
+    white-space: nowrap;
+    justify-content: center;
+    margin-bottom: 0;
+	}
+	.team-module > div{
+		padding: 10px 12px;
+	}
+	.team-module > div:first-child{
+		padding-left: 0;
+	}
+	.team-module .like-three{
+		font-size: 18px;
+	}
+	.team-modules > div{
+		width: 100%;
+	}
+	.team-wrap{
+		margin-top: 14px;
+	}
+	.team-modules-content{
+		width: 100%;
+	}
+	.team-modules-content-item{
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: flex-start;
+		margin-top: 24px;
+	}
+	.team-modules-content-item > div{
+		margin-left: 0;
+	}
+	.team-modules-content-item img{
+		margin-left: 0;
+		width: 80px;
+		height: 80px;
+		margin-right: 16px;
+	}
+	.team-modules-content-item p:first-child{
+		margin-top: 24px;
+	}
+	
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+	.roadmap-item {
+		border-left: 4px solid #C1C7CD;
+	}
+	.roadmap-item.active {
+		border-color: var(--accent);
+	}
+	.roadmap-item::before {
+		content: none !important;
+	}
+	.roadmap-wrap {
+		padding: 10px;
+		margin-top: 20px;
+	}
 	.modules-mobile-align {
 		height: auto;
 	}
-
+	.roadmap-item:nth-child(2n) {
+		justify-content: flex-end;
+	}
+	.roadmap-item {
+		padding-bottom: 32px;
+	}
+	.roadmap-content {
+		width: 100%;
+	}
+	.roadmap-item::before {
+		right: auto;
+		left: 0;
+	}
+	.roadmap-item:last-child {
+		border-color: transparent;
+		padding-bottom: 0;
+	}
+	.roadmap-item::after {
+		right: auto;
+		left: -3%;
+		top: -1px;
+		margin: auto;
+	}
+	.roadmap-item.left-brd .roadmap-content .like-five::after,
+	.roadmap-content .like-five::after {
+		left: -50px;
+		width: 10%;
+		right: auto;
+	}
+	.roadmap-item:nth-child(2n) .roadmap-content {
+		padding-left: 58px;
+		padding-right: 0;
+	}
 	.swiper-pagination-progressbar.swiper-pagination-horizontal {
 		display: block;
 	}
-
 	.modules-mobile-align {
 		position: absolute;
 		width: 100%;
@@ -260,25 +356,42 @@
 		left: 0;
 		padding: 0 0.75rem;
 	}
-
 	.m-gap {
 		padding-right: .625rem;
 		padding-left: .625rem;
 	}
-
 	.artist-detail-item span,
 	.artist-detail-item .artist-info {
 		width: auto;
 	}
-
 	.artist-info img {
 		margin-right: 0;
+	}
+
+	.faq-accordion .toggle-accordion-content {
+		padding: 0 14px 16px 14px;
+	}
+
+	.toggle-accordion {
+		padding: 14px 16px;
+	}
+
+	.acordeon {
+		margin-top: 14px;
 	}
 
 }
 
 /* xs <= Small (sm) */
-@media (max-width : 576px) {}
+@media (max-width : 576px) {
+	.roadmap-item::after{
+		left: -14px;
+	}
+	.team-modules{
+		justify-content: flex-start;
+	}
+
+}
 
 
 /* === MOBILE FIRST === */
@@ -296,9 +409,7 @@
 @media (min-width : 992px) {
 	header .toggle-button {
 		display: none;
-
 	}
-
 	.toggle-menu a {
 		margin-right: 16px;
 	}
